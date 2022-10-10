@@ -41,6 +41,8 @@ public class Main {
         //how to print out the number of days
         System.out.println(Months.JANUARY.numberOfDays);
 
+        System.out.println(Months.AUGUST.numberOfDays);
+
 
 
 

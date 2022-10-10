@@ -38,7 +38,7 @@ public class Main {
             @Override
             public int compare(Phones o1, Phones o2) {
                 if (o1.getPrice() > o2.getPrice())
-                    return 1;0
+                    return 1;
                 else
                     return  -1;
             }
