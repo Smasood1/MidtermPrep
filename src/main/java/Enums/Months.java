@@ -19,10 +19,9 @@ public enum Months {
 
    final int numberOfDays;
 
-   //we make this final because we cannot change a fixed value since enums are preassigned and dont change.
-    //however if we want to change we run this command in main:
-
-    //generate constructor
+    //we make this final because we cannot change a fixed value since enums are preassigned and dont change.//however if we want to change we run this command in main:
+    //Months.JANUARY.numberOfDays = 5;
+    // generate constructor
 
     Months(int numberOfDays) {
         this.numberOfDays = numberOfDays;
